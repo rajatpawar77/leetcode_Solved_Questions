@@ -8,10 +8,12 @@ class Solution {
         
         for(int i = 0 ; i < l ; i++)
         {
-            if(!hm.containsKey(nums[i]))
-               hm.put(nums[i],1);
-            else
+           
+             
+           if(hm.containsKey(nums[i]))
                 return nums[i];
+            
+              hm.put(nums[i],1);
         }
      
         
