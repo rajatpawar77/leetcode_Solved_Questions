@@ -14,6 +14,8 @@ class Solution {
             
             
         }
+        if(x<0)
+            return false;
         
         if (res==A)
             return true ;
