@@ -15,7 +15,6 @@ class Solution {
             
         }
         
-        
         if (res==A)
             return true ;
         else
